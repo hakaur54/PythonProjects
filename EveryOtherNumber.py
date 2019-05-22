@@ -1,9 +1,10 @@
+a = input('Whats your max? ')
 x = 0
 print(x)
-while x != 100:
+while x != int(a):
     x = x+2
     print(x)
 
-if x == 100:
+if x == int(a):
     print("done!")
     exit()
